@@ -3,25 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Static Site</title>
+  <title>Part-Time YouTuber Academy</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Hanseif:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <span class="site-title">Your Site</span>
-    <span class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="blog/first-post.html">Blog</a>
-      <a href="about.html">About</a>
-      <a href="faq.html">FAQ</a>
-    </span>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-icon">🎬</div>
+        <div class="logo-text">
+          <span class="logo-line-1">PART-TIME</span>
+          <span class="logo-line-2">YOUTUBER ACADEMY</span>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="academy.html">Academy</a>
+        <a href="login.html">Course Login</a>
+        <a href="blog/first-post.html">Blog</a>
+      </div>
+    </div>
   </nav>
-  <main>
-      <h1>Home</h1>
-      <h1>Welcome to My Static Site</h1>
-<p>This is the landing page. Edit <code>content/index.md</code> to change this content. </p>
 
-    </main>
+  <main class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="welcome-text">Welcome to the</span>
+        <span class="main-title">Part-Time YouTuber Academy</span>
+      </h1>
+      
+      <div class="hero-description">
+        <p class="description-text">
+          We've condensed <span class="highlight">7+ years</span> of <span class="highlight">YouTube experience</span> into programmes designed to help you on your YouTube journey.
+        </p>
+        <p class="description-text">
+          We learned lessons the hard way, so you don't have to...
+        </p>
+      </div>
+
+      <button class="cta-button">
+        <span>Find Out More</span>
+        <span class="arrow">→</span>
+      </button>
+
+      <div class="success-metric">
+        <p class="metric-text">
+          We've helped over <span class="underline">6,000 creators</span> start and grow a <span class="underline">successful YouTube channel</span>.
+        </p>
+      </div>
+    </div>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html> 

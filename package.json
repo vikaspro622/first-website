@@ -1,0 +1,12 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "A simple static site generator using Markdown and Node.js",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "marked": "^12.0.0"
+  }
+} 
